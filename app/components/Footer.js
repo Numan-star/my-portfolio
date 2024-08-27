@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-4 border-t border-t-teal-500/20">
       <div className="container mx-auto text-center">
-        <p className="text-sm mb-5">© {new Date().getFullYear()} Numan's Portfolio. All rights reserved.</p>
+        <p className="text-sm mb-5">© {new Date().getFullYear()} Numan&apos;s Portfolio. All rights reserved.</p>
         <div className="flex justify-center space-x-4 mb-5">
           <a href="https://github.com/Numan-star" target="_blank" rel="noopener noreferrer" className="hover:text-teal-500 flex items-center space-x-2">
             <FaGithub className="w-5 h-5" />
