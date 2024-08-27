@@ -12,7 +12,7 @@ export default function ProfileCard() {
     const texts = [
         'Software Engineer',
         'Laravel Developer',
-        'Full Stack Web Developer',
+        'Full Stack Developer',
     ];
 
     useEffect(() => {

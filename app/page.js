@@ -2,6 +2,8 @@
 import Services from './components/Services';
 import ProfileCard from './components/ProfileCard';
 import Testimonials from './components/Testimonials';
+import ContactSection from './components/ContactSection';
+
 
 
 export default function Home() {
@@ -10,6 +12,7 @@ export default function Home() {
       <main className="">
         <ProfileCard />
         <Services />
+        <ContactSection/>
         <Testimonials/>
       </main>
     </div>
