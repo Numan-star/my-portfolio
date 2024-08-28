@@ -20,7 +20,7 @@ export default function ContactForm() {
       <button type="submit" className="w-full bg-gradient-to-r from-teal-700 to-teal-950 text-gray font-normal py-3 rounded-sm">
         SEND INQUIRY
       </button>
-      <p className="text-gray-400 text-center mt-4">We'll get back to you within 24 hours.</p>
+      <p className="text-gray-400 text-center mt-4">We&apos;ll get back to you within 24 hours.</p>
     </form>
   );
 }
