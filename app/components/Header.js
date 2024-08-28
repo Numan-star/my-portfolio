@@ -1,7 +1,7 @@
 "use client"; // This line makes this component a Client Component
 
 import { useState } from 'react';
-import './header.css'; // Import custom styles for animation
+import './header.css';
 import { FaCode } from "react-icons/fa6";
 
 
