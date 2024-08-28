@@ -20,7 +20,7 @@ export default function ContactSection() {
                 <h2 className="text-4xl font-bold text-center mb-5 text-gray-100">
                     <span className="bg-gradient-to-r from-teal-500 via-gray-300 to-pink-600 bg-clip-text text-transparent">Contact</span> Us
                 </h2>
-                <p className='text-gray-100 text-xl max-w-xl mx-auto mb-10'>We'd love to talk about how we can help you.</p>
+                <p className='text-gray-100 text-xl max-w-xl mx-auto mb-10'>We&apos;d love to talk about how we can help you.</p>
             </div>
 
             <div className="container mx-auto px-8 flex flex-col lg:flex-row justify-between gap-20 py-0">
@@ -33,7 +33,7 @@ export default function ContactSection() {
                         </div>
                         <div>
                             <h3 className="text-white font-bold text-lg">Knowledgebase</h3>
-                            <p className="text-gray-400">We're here to help with any questions or code.</p>
+                            <p className="text-gray-400">We&apos;re here to help with any questions or code.</p>
                             <a  onClick={scrollToFirstNameInput} className="text-teal-700 mt-4 inline-block hover:text-teal-500 cursor-pointer">Contact support →</a>
                         </div>
 
