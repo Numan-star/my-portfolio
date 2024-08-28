@@ -17,7 +17,7 @@ export default function Services() {
     const services = [
         {
             icon: FaCode,
-            title: 'Web Development', 
+            title: 'Web Development',
             description: "Customized web solutions tailored to your needs, whether it's building dynamic websites, web applications, or e-commerce platforms. From frontend design to backend development, I've got you covered.",
         },
         {
@@ -51,7 +51,9 @@ export default function Services() {
         <section className="bg-gray-900 py-16 border-t border-t-teal-500/20">
             {/* py-10 text-white bg-gray-900 border-t sm:py-14 lg:py-20 border-t-teal-500/20 */}
             <div className="container mx-auto px-4 text-center">
-                <h2 className="text-4xl font-bold text-center mb-10 text-gray-100">Our Services</h2>
+                <h2 className="text-4xl font-bold text-center mb-10 text-gray-100">
+                    Our <span className="bg-gradient-to-r from-teal-500 via-gray-300 to-pink-600 bg-clip-text text-transparent">Services</span>
+                </h2>
                 <p className='text-gray-100 text-xl max-w-xl mx-auto mb-10'>Explore our range of digital services, including web development, design, API integration, and maintenance, to ensure online success. Let us help you create something remarkable.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

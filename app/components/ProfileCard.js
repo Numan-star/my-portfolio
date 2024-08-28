@@ -33,16 +33,17 @@ export default function ProfileCard() {
                     alt="Profile"
                     width={200} // Width of the image
                     height={200} // Height of the image
-                    className="rounded-full mb-4 mx-auto"
+                    className="rounded-full mb-7 mx-auto border-2 border-teal-800 shadow-2xl shadow-teal-700"
                 />
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 text-gray-100">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-500 via-gray-300 to-pink-600 bg-clip-text text-transparent">
                     Muhammad Numan
                 </h1>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 text-gray-100 mb-8 animate-slideIn">
+
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-100 mb-8 animate-slideIn">
                     {texts[currentTextIndex]}
                 </h1>
                 <p className="text-gray-100 text-base md:text-lg lg:text-xl max-w-xl mx-auto">
-                    I turn ideas into web reality. Experienced in both front-end and back-end development, I craft elegant user interfaces and scalable server-side solutions.
+                    I turn ideas into web reality. Experienced in both <span className='text-teal-500'>front-end</span> and <span className='text-teal-500'>back-end</span> development, I craft elegant user interfaces and scalable server-side solutions.
                 </p>
             </div>
         </div>

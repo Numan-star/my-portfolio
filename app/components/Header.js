@@ -20,7 +20,7 @@ export default function Header() {
           <span className="text-teal-500 text-4xl">
             <IconComponent />
           </span>
-          <span>Developer Numan</span>
+          <span className='text-2xl bg-gradient-to-r from-teal-500 via-gray-300 to-pink-600 bg-clip-text text-transparent'>Developer Numan</span>
         </div>
         {/* <button
           className="md:hidden flex items-center z-50"

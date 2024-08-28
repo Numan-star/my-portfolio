@@ -36,13 +36,15 @@ export default function Testimonials() {
     <section className="bg-gray-900 py-16 border-t border-t-teal-500/20">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-100 mb-5">Hear What My Clients Say</h2>
+          <h2 className="text-4xl font-bold text-center mb-5 text-gray-100">
+            Hear What <span className="bg-gradient-to-r from-teal-500 via-gray-300 to-pink-600 bg-clip-text text-transparent">My Clients</span> Say
+          </h2>
           <p className="text-base text-gray-300">
             Explore our range of digital services, including web development, design, API integration, and maintenance, to ensure online success. Let us help you create something remarkable.
           </p>
         </div>
         <div
-          className="overflow-hidden whitespace-nowrap relative" 
+          className="overflow-hidden whitespace-nowrap relative"
           ref={containerRef}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
