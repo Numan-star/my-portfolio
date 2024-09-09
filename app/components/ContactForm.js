@@ -1,6 +1,5 @@
 "use client";
 
-
 export default function ContactForm() {
   return (
     <form className="bg-gray-900 p-8 rounded-sm shadow-lg border border-teal-950">

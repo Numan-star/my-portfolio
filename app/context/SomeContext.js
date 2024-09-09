@@ -1,17 +1,20 @@
 // app/context/SomeContext.js
-import { createContext, useContext } from 'react';
+import { useState } from 'react';
 
-const SomeContext = createContext();
-
+// Provider component that holds state and passes it down as props
 export function SomeProvider({ children }) {
-  const contextValue = {}; // Add your context value here
-  return (
-    <SomeContext.Provider value={contextValue}>
-      {children}
-    </SomeContext.Provider>
-  );
-}
+  // Set up state or any value you want to provide across components
+  const [someValue, setSomeValue] = useState("Default Value");
 
-export function useSomeContext() {
-  return useContext(SomeContext);
+  // Any functions or additional state to manage
+  const handleChange = (newValue) => setSomeValue(newValue);
+
+  // Pass state and functions as props to children
+  return (
+    <div>
+      {React.Children.map(children, (child) => {
+        return React.cloneElement(child, { someValue, handleChange });
+      })}
+    </div>
+  );
 }

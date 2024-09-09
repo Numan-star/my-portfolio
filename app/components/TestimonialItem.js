@@ -1,3 +1,5 @@
+"use client";
+
 // app/components/TestimonialItem.js
 export default function TestimonialItem({ name, role, testimonial }) {
     return (

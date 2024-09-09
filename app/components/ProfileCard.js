@@ -29,10 +29,11 @@ export default function ProfileCard() {
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4 py-8">
             <div className="text-center">
                 <Image
-                    src="/numan.jpeg" // Path relative to the public folder
+                    src="/numan.jpeg"
                     alt="Profile"
-                    width={200} // Width of the image
-                    height={200} // Height of the image
+                    width={200} 
+                    height={200} 
+                    priority
                     className="rounded-full mb-7 mx-auto border-2 border-teal-800 shadow-2xl shadow-teal-700"
                 />
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-500 via-gray-300 to-pink-600 bg-clip-text text-transparent">

@@ -1,3 +1,5 @@
+"use client";
+
 // app/components/Footer.js
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
