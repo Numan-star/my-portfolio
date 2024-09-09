@@ -13,7 +13,7 @@ export default function Footer() {
             <FaGithub className="w-5 h-5" />
             <span>GitHub</span>
           </a>
-          <a href="https://www.linkedin.com/in/muhammad-numan-618a24241/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-500 flex items-center space-x-2">
+          <a href="https://linkedin.com/in/muhammad-numan-618a24241/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-500 flex items-center space-x-2">
             <FaLinkedin className="w-5 h-5" />
             <span>LinkedIn</span>
           </a>

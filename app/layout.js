@@ -22,7 +22,8 @@ export const metadata = {
   },
   verification: {
     google: 'onII4hxxp8M1XmPi1go7juM5FTCXugQWkFdy7F5i4cU',
-  }
+  },
+  canonical: 'https://developernuman.vercel.app/'
 };
 
 
