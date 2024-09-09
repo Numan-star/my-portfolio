@@ -2,7 +2,6 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
 import './globals.css';
-<meta name="google-site-verification" content="onII4hxxp8M1XmPi1go7juM5FTCXugQWkFdy7F5i4cU" />
 export const metadata = {
   title: 'Developer Numan - Software Engineer & Web Developer',
   description: 'I am Numan, a passionate software engineer skilled in crafting stellar web experiences using Laravel, Next.js, and React.',
