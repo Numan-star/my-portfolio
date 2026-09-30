@@ -56,7 +56,7 @@ export default function Footer() {
             <p className="mt-6 max-w-md leading-8 text-slate-400">
               Passionate about building scalable SaaS applications, enterprise
               solutions, and modern web experiences using Laravel, Next.js,
-              Vue.js, and cloud technologies.
+              React.js, and cloud technologies.
             </p>
 
             {/* Social */}

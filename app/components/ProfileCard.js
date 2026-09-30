@@ -100,7 +100,7 @@ export default function HeroSection() {
               3+ years of experience
             </span>{" "}
             building scalable SaaS applications, secure RESTful APIs, and modern
-            web platforms using Laravel, Next.js, Vue.js, Tailwind CSS, and
+            web platforms using Laravel, Next.js, React.js, Tailwind CSS, and
             MySQL.
           </p>
 

@@ -24,8 +24,7 @@ const techCategories = [
     color: "from-cyan-500 to-blue-500",
     technologies: [
       "Next.js",
-      "Vue.js",
-      "React",
+      "React.js",
       "JavaScript",
       "Tailwind CSS",
       "Bootstrap",

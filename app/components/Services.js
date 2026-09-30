@@ -25,7 +25,7 @@ const services = [
     icon: HiOutlineDesktopComputer,
     title: "Frontend Development",
     description:
-      "Responsive, pixel-perfect interfaces with React, Vue.js and Tailwind CSS.",
+      "Responsive, pixel-perfect interfaces with Next.js, React.js and Tailwind CSS.",
   },
   {
     icon: HiOutlineShoppingBag,
@@ -78,8 +78,8 @@ export default function Services() {
 
           <p className="mt-6 text-lg leading-8 text-slate-400">
             I specialize in designing and developing modern, scalable and
-            user-focused web applications using Laravel, React, Vue.js, Next.js
-            and cloud-ready technologies.
+            user-focused web applications using Laravel, React.js, Next.js and
+            cloud-ready technologies.
           </p>
         </div>
 

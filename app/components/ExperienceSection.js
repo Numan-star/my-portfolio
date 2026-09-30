@@ -9,12 +9,12 @@ const experiences = [
     role: "Full Stack Developer",
     duration: "May 2025 — Present",
     description:
-      "Building scalable SaaS applications using Laravel, Next.js, and Vue.js. Developing secure REST APIs, integrating Stripe payments, and delivering modern, responsive user experiences.",
+      "Building scalable SaaS applications using Laravel, Next.js, and React.js. Developing secure REST APIs, integrating Stripe payments, and delivering modern, responsive user experiences.",
 
     technologies: [
       "Laravel",
       "Next.js",
-      "Vue.js",
+      "React.js",
       "Tailwind",
       "Stripe",
       "REST API",
