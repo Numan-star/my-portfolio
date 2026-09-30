@@ -90,18 +90,17 @@ export default function HeroSection() {
           </div>
 
           <p className="mx-auto mt-5 max-w-xl text-base leading-7 text-slate-400 sm:text-lg sm:leading-8 lg:mx-0">
-            Results-driven{" "}
+            I’m a{" "}
             <span className="font-semibold text-white">
-              Full Stack Developer
+              Senior Full Stack Developer
             </span>{" "}
-            with
+            specializing in
             <span className="font-semibold text-teal-400">
               {" "}
-              3+ years of experience
+              Laravel, SaaS architecture, AI integrations, and API development,
             </span>{" "}
-            building scalable SaaS applications, secure RESTful APIs, and modern
-            web platforms using Laravel, Next.js, React.js, Tailwind CSS, and
-            MySQL.
+            building secure, scalable, and production-ready applications with
+            React, Next.js, TypeScript, and modern web technologies.
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-4 lg:justify-start">
